@@ -33,6 +33,7 @@ class Student(Person):
 
         elif average >= 80 and average < 90:
             return 'E'
+            
         elif average >=90 and average <= 100:
             return 'O'
 
